@@ -33,7 +33,7 @@ import java.util.concurrent.TimeUnit;
  * A service that cleans up EPG data.
  */
 public class EpgDataCleanupService extends IntentService {
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
     private static final String TAG = "EpgDataCleanupService";
 
     static final String ACTION_CLEAN_UP_EPG_DATA =
